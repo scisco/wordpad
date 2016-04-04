@@ -1,8 +1,8 @@
 workpad
 +++++++
 
-.. image:: https://travis-ci.org/scisco/workdpad.svg?branch=master
-    :target: https://travis-ci.org/scisco/workdpad
+.. image:: https://travis-ci.org/scisco/wordpad.svg?branch=master
+    :target: https://travis-ci.org/scisco/wordpad
 
 Adds padding to the right or left of a given string
 
