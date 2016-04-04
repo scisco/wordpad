@@ -16,7 +16,7 @@ setup(
     description='Adds padding to the right or left of a given string',
     long_description=long_description,
     url='https://github.com/scisco/wordpad',
-    download_url='https://github.com/scisco/wordpad/tarball/' + __version__,
+    download_url='https://github.com/scisco/wordpad/archive/v%s.tar.gz' % __version__,
     license='CC0',
     classifiers=[
         'Intended Audience :: Developers',
