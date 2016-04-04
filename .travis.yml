@@ -1,0 +1,15 @@
+language: python
+python:
+- '2.7'
+- '3.4'
+- '3.5'
+script:
+- python setup.py test
+deploy:
+  provider: pypi
+  user: scisco
+  password:
+    secure: jGY8a9PJ2gqBNSwEDtdMP5dkot1kHQghnnBrPIVpWAC0jIRm8yHtC8zIPMWhwQXmlpn8+MQEL+T7PF2SUm+XXmkikaaS5xpg8w4lDnKq5P9aHyRfXIIZiuvq0urRSIfF8V4QL/K59Rd9wZU++jd49z4jQhCSkuNXWx3NrxGJTkI2veeLamKZYTtTj06WarsMdA0x+KSSk84E1jrxr7CE75eiyoi2QDercZ7OLqCKN4TN7yYtdn9tszoB25+1QCH5lVU4A8ygj/iR1a2Ukj7PPmqt0dhaqPDWeBeGaUkGVSUHbAo628NEdGMQEPvot5kbeNODlTQQGFoIFBcy3w6LPqI/oZS7oiQp82IAUrVoyW62fnFvzaSbJJyqTm+/mk3AOD4+s0gSHcV29eukL0smibDr5eA31DTN1c90wtItp9cyrHwxSWar5h0CNURS2Exxa3ERjsj0Yoib3msfoH4q52Ame06/YAbhBVJGycVkhaGbkVHEzyIi2li/R2+NzBhe5TVZNAiG6G2s+cOn7Mh97n5xjJlqtdDcoc529uORrpVH4/YSvgbX5rXCnaHHNOCm+oVE5iLAk7ECI2QmBMVpdT/yl+5u1saq/9qUpw9h4dYshY9Dr8VWWvtwLrhva8c/J5dF77GXdEyEN67yzLff3cT+FXY6DB8GcfwSoxdBXu4=
+  on:
+    repo: scisco/wordpad
+    tags: true
