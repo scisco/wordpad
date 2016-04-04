@@ -1,4 +1,4 @@
-workpad
+wordpad
 +++++++
 
 .. image:: https://travis-ci.org/scisco/wordpad.svg?branch=master
